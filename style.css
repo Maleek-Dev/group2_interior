@@ -162,7 +162,7 @@
     gap: 40px;
 }
 .write{
-    width: 40%;
+    width: 35%;
 }
 .write h3{
     font-size: 68px;
@@ -173,7 +173,7 @@
     margin-top: 20px;
 }
 .hero_img{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     color: #8b8b8b;
     font-weight: 100;
@@ -186,16 +186,16 @@
     background: none;
     border: solid #b46723;
     border-width: 1px;
-    padding: 10px 30px;
+    padding: 10px 35px;
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center; gap: 7px;
+    gap: 7px;
 }
 .btn_arrow img{
-    width: 40px;
+    width: 30px;
     background: none;
     margin: 0 auto;
     border: none;
