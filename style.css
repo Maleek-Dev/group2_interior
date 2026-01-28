@@ -124,3 +124,24 @@
 .footer_note_img img{
     width: 20px;
 }
+.btntop{
+    cursor: pointer;
+    background-color: #b46723;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+    position: fixed;
+    bottom: 225px;
+    right: 20px;
+    z-index: 1000;
+}
+.btntop:hover{
+    background-color:#22211f;
+}
