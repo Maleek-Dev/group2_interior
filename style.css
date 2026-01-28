@@ -145,3 +145,49 @@
 .btntop:hover{
     background-color:#22211f;
 }
+
+.hero_section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    gap: 40px;
+}
+.write{
+    width: 40%;
+}
+.write h3{
+    font-size: 68px;
+}
+.write p{
+    font-size: 18px;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+.hero_img{
+    width: 60%;
+    margin: 0 auto;
+    color: #8b8b8b;
+    font-weight: 100;
+}
+.hero_img img{
+    width: 100%;
+    margin: 0 auto;
+}
+.hero_btn{
+    background: none;
+    border: solid #b46723;
+    border-width: 1px;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
