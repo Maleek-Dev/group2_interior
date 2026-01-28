@@ -158,11 +158,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    gap: 40px;
+    padding-left: 40px;
+    gap: 70px;
 }
 .write{
-    width: 35%;
+    width: 40%;
 }
 .write h3{
     font-size: 68px;
@@ -173,7 +173,7 @@
     margin-top: 20px;
 }
 .hero_img{
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     color: #8b8b8b;
     font-weight: 100;
@@ -199,4 +199,36 @@
     background: none;
     margin: 0 auto;
     border: none;
+}
+.contact{
+    width: 100%;
+    background-color: #dfba99;
+    margin: 0 auto;
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_button{
+    width: 30%;
+
+}
+.contact_write{
+    width: 70%;
+    }
+.contact_write h3{
+    font-size: 50px;
+    color: #22211f;
+}
+.contact_write h4{
+    font-size: 16px;
+    color: #22211f;
+    font-weight: 100;
 }
