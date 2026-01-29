@@ -37,6 +37,7 @@
 
 .logoholder{
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     padding: 80px 0px 80px 0px;
@@ -46,6 +47,7 @@
 }
 .all_logos{
     width: 80%;
+    margin: 0 auto;
     gap: 30px;
     display: flex;
     align-items: center;
@@ -54,6 +56,96 @@
 .all_logos img{
     width: 140px;
 }
+
+
+.portfolios{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0px 70px 0px;
+
+}
+.portfolio_content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.rec_text img{
+    height: 75px;
+    width: 8px;
+}
+
+.content_textalign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content_textalign h3{
+    font-size: 40px;
+}
+.content_textalign p{
+    font-size: 16px;
+    color: #b46723;
+    margin-top: 20px;
+}
+.rec_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.folio_content{
+    width: 80%;
+    display: grid;
+    margin-top: 70px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.folio_content img{
+    width: 100%;
+}
+.folio_content H4{
+    font-size: 25px;
+    font-weight: 100;
+    color: #22211f;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.portfolios button{
+    background: none;
+    border: solid #b46723;
+    border-width: 1px;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.portfolios button:hover{
+    background: none;
+    border: solid #22211f;
+    border-width: 1px;
+}
+
+.testimonials{
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0px 80px 0px;
+}
+
+
+
+
 
 .footer_interior{
     width: 100%;
@@ -213,6 +305,11 @@
     display: flex;
     align-items: center;
     gap: 7px;
+}
+.hero_btn:hover{
+    background: none;
+    border: solid #22211f;
+    border-width: 1px;
 }
 .btn_arrow img{
     width: 30px;
