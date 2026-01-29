@@ -735,25 +735,44 @@
 
 @media(max-width: 425px){
     .content_textalign h3{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 @media(max-width: 425px){
     .content_textalign {
         width: 100%;
+        margin: 0px; padding: 0px;
+        display: flex;
+        flex-direction: column;
     }
 }
+@media(max-width: 425px){
+    .content_textalign p {
+        font-size: 16px;
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
+    }
+}
+@media(max-width: 425px){
+    .rec_text {
+        width: 100%;
+        margin: 0px; padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+}
+
 
 @media(max-width: 425px){
     .portfolio_content{
         width: 100%;
         margin: 0 auto;
         padding: 0px;
-        display: grid;
+        display: flex;
         align-items: center;
         justify-content: center;
-        grid-template-columns: 1fr;
     }
 }
 
