@@ -34,14 +34,35 @@
     width: 28px;
 }
 
+
+.logoholder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+    border: solid;
+    border-color: #8b8b8b33;
+    border-width: 0px 0px 1px 0px;
+}
+.all_logos{
+    width: 80%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all_logos img{
+    width: 140px;
+}
+
 .footer_interior{
     width: 100%;
     margin: 0 auto;
-    padding: 40px 0px 0px 0px;
+    padding: 120px 0px 30px 0px;
 }
 
 .footer_content{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -97,10 +118,9 @@
     border-width: 1px 0px 0px 0px ;
     display: flex;
     justify-content: center;
-
 }
 .foot_note_content{
-    width: 90%;
+    width: 80%;
     margin: 40px 0px auto;
     align-items: center;
     display: flex;
@@ -138,7 +158,7 @@
     color: white;
     font-weight: 100;
     position: fixed;
-    bottom: 225px;
+    bottom: 108px;
     right: 20px;
     z-index: 1000;
 }
@@ -210,7 +230,7 @@
     justify-content: center;
 }
 .contact_content{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
