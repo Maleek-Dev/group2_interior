@@ -215,20 +215,41 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 70px;
 }
 .contact_button{
-    width: 30%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
 
 }
+.contact_button button{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    background-color: #22211f;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+}
 .contact_write{
-    width: 70%;
+    width: 60%;
     }
 .contact_write h3{
     font-size: 50px;
     color: #22211f;
+    
 }
 .contact_write h4{
-    font-size: 16px;
+    font-size: 18px;
     color: #22211f;
     font-weight: 100;
+    margin-top: 20px;
+}
+.h4bold{
+    font-size: 18px;
+    color: #22211f;
+    
 }
