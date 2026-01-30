@@ -980,12 +980,6 @@
     }
 }
 
-
-
-
-
-
-
 /* Services ends here */
 
 @media (max-width: 425px){
@@ -1266,8 +1260,9 @@
 
 @media(max-width: 425px){
     .footer_interior{
-        width: 100%;
+        width: 90%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: left;
         margin: 0px 0px 0px 0px;
@@ -1276,7 +1271,7 @@
 }
 @media(max-width: 425px){
     .footer_content{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1287,11 +1282,11 @@
     }
 }
 @media(max-width: 425px){
-    .footer_img, .quick, .services, .ger{
+    .footer_img, .quick, .services, .get{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: left;
         margin: 0px 0px 0px 0px;
         padding: 0px;
@@ -1303,6 +1298,7 @@
     .footer_note{
         width: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: left;
         margin: 0px 0px 0px 0px;
@@ -1310,12 +1306,23 @@
     }
 }
 @media(max-width: 425px){
-    .footer_note_content{
+    .foot_note_content{
         width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: left;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        
+    }
+}
+@media(max-width: 425px){
+    .footer_note_img{
+        width: 100%;
+        display: flex;
+        align-items: left;
+        justify-content: center;
         margin: 0px 0px 0px 0px;
         padding: 0px;
         
