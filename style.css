@@ -569,7 +569,7 @@
 
 
 /* About Section starts here */
-.About{
+/* .About{
     width: 100%;
     margin: 0 auto;
     padding: 100px 0px;
@@ -641,12 +641,12 @@
 .about_btn:hover{
     border: solid #22211f;
     border-width: 1px;
-}
+} */
 /* About sections ends here */
 
 /* the services section starts here */
 
-.Services{
+/* .Services{
     width: 100%;
     margin: 0 auto;
     padding: 100px 0px;
@@ -658,7 +658,7 @@
 .services_content{
     width: 80%;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     gap: 50px;
 }
@@ -747,7 +747,7 @@
     display: inline-block;
     text-decoration: none;
     color: #dfba99;
-}
+} */
 
 /* the services section ends here */
 
