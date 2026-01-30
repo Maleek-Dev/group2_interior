@@ -24,6 +24,15 @@
 .nav_menu li a img{
     width: 13px;
 }
+.ham{
+    background: none;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+.ham img{
+    width: 25px;
+}
 .nav_menu {
   display: flex;
   gap: 50px;
@@ -1290,7 +1299,9 @@
         justify-content: left;
         margin: 0px 0px 0px 0px;
         padding: 0px;
-        
+    }
+    .footer_img img{
+        width: 200px;
     }
 }
 
@@ -1326,5 +1337,28 @@
         margin: 0px 0px 0px 0px;
         padding: 0px;
         
+    }
+}
+
+/* this is the navbar section */
+@media(max-width: 425px){
+    .navigation{
+        width: 90%;
+        margin: 0px;
+        padding: 20px 10px;
+        
+        
+    }
+    .nav_menu{
+        display: none;
+    }
+    .nav_logo img{
+        width: 150px;
+    }
+    .ham{
+        display: block;
+        width: 30px;
+        margin: 0px;
+        padding: 0px;
     }
 }
